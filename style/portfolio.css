@@ -4,6 +4,7 @@
   --text-color: #272142;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+  --shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
   font-family: var(--default-font-family);
@@ -45,6 +46,7 @@ h6 {
   border-radius: 4px;
   padding: 20px 30px;
   margin: 25px;
+  box-shadow: var(--shadow);
 }
 .btn-main:hover {
   background-color: var(--secondary-color);
@@ -88,6 +90,7 @@ footer p {
   padding: 4px 10px;
   color: var(--secondary-color);
   margin: 10px;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 576px) {
   h6 {

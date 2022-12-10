@@ -122,4 +122,10 @@ footer p {
   .hero h1 {
     font-size: 75px;
   }
+  h6 {
+    font-size: 20px;
+  }
+  .hero p {
+    font-size: 30px;
+  }
 }

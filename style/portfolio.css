@@ -64,7 +64,8 @@ h2 {
   font-size: 18px;
   line-height: 1.5;
   border-radius: 4px;
-  padding: 20px 30px;
+  width: 160px;
+  padding: 20px 15px;
   margin: 25px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -108,15 +109,13 @@ h2 {
   line-height: 1.5;
   border-radius: 4px;
   padding: 19px 29px;
+  width: 160px;
   margin: 25px;
 }
 .btn-secondary:hover {
   border-color: var(--secondary-color);
   background: white;
   color: var(--secondary-color);
-}
-.work-inquiry-button {
-  margin: 25px;
 }
 .homepage p {
   text-align: center;
@@ -169,8 +168,7 @@ footer p {
 }
 .work-inquiry-button {
   position: relative;
-  top: -20px;
-  margin: 25px 0;
+  top: -23px;
 }
 @media (max-width: 576px) {
   h6 {
@@ -194,7 +192,7 @@ footer p {
   }
   .btn-small-dark {
     font-size: 12px;
-    padding: 20px 15px;
+    padding: 15px 20px;
   }
   footer {
     margin: 10px;

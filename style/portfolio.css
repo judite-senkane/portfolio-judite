@@ -152,6 +152,10 @@ footer p {
   margin: 10px;
   box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
 }
+.media-links div a:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
 .work-inquiry {
   display: flex;
   justify-content: space-between;

@@ -52,6 +52,19 @@ h6 {
   background-color: var(--secondary-color);
   color: white;
 }
+.btn-small-dark {
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 4px;
+  padding: 15px 25px;
+  margin: 25px;
+}
+.btn-small-dark:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
 
 .btn-secondary {
   border: 2px solid var(--secondary-color);
@@ -91,6 +104,21 @@ footer p {
   color: var(--secondary-color);
   margin: 10px;
   box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.work-inquiry {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px 20px;
+  background: var(--primary-color);
+}
+.work-inquiry p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+.work-inquiry-button {
+  position: relative;
+  top: -20px;
 }
 @media (max-width: 576px) {
   h6 {

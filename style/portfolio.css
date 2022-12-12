@@ -66,6 +66,7 @@ h2 {
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  opacity: 100%;
 }
 .btn-main {
   background-color: var(--secondary-color);

@@ -182,6 +182,8 @@ footer p {
 }
 .about-section {
   margin: 100px 60px 60px;
+  background: var(--primary-color);
+  padding: 30px;
 }
 .about-section img {
   width: 400px;

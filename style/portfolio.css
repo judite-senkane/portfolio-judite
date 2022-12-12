@@ -15,10 +15,59 @@ h2,
 h3 {
   font-family: var(--heading-font-family);
 }
-h6 {
+h1 {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: black;
+}
+h2 {
+  font-size: 50px;
+  line-height: 1.5;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+h5 {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
+}
+p {
+  font-size: 14px;
+  line-height: 1.8;
+  opacity: 70%;
+}
+.hero {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 80px 30px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  opacity: 100%;
+}
+.homepage p {
+  text-align: center;
+  font-weight: 400;
+}
+.work-inquiry p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+footer p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
 }
 .homepage img {
   padding: 20px 30px;
@@ -30,43 +79,32 @@ h6 {
   padding: 40px;
   background-color: var(--primary-color);
 }
-h4 {
-  font-size: 20px;
-  font-weight: 700;
-  text-align: center;
-  color: black;
+.media-links {
+  display: flex;
+  justify-content: center;
 }
-.hero {
-  text-align: center;
-  background-color: var(--primary-color);
-  padding: 80px 30px;
-}
-h1 {
-  font-size: 96px;
-  font-weight: 700;
-  line-height: 1.5;
-  color: black;
-}
-h2 {
-  font-size: 50px;
-  line-height: 1.5;
-}
-.about-section h1 {
-  font-size: 64px;
-  line-height: 1.5;
-}
-.about-section h2 {
+.media-links div a {
   font-size: 18px;
-  font-weight: 700;
-  font-family: var(--default-font-family);
+  background: var(--primary-color);
+  border-radius: 50%;
+  padding: 4px 10px;
+  color: var(--secondary-color);
+  margin: 10px;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
 }
-.hero p {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-  opacity: 100%;
+.media-links div a:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.work-inquiry {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px 20px;
+  background: var(--primary-color);
+}
+.work-inquiry-button {
+  position: relative;
+  top: -23px;
 }
 .btn-main {
   background-color: var(--secondary-color);
@@ -110,7 +148,6 @@ h2 {
   background-color: var(--secondary-color);
   color: white;
 }
-
 .btn-secondary {
   border: 2px solid var(--secondary-color);
   background: white;
@@ -127,58 +164,9 @@ h2 {
   background: white;
   color: var(--secondary-color);
 }
-.homepage p {
-  text-align: center;
-  opacity: 70%;
-  font-size: 14px;
-  font-weight: 400;
-}
-p {
-  font-size: 14px;
-  line-height: 1.8;
-  opacity: 70%;
-}
 .buttons {
   display: flex;
   justify-content: center;
-}
-footer p {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 500;
-  color: black;
-}
-.media-links {
-  display: flex;
-  justify-content: center;
-}
-.media-links div a {
-  font-size: 18px;
-  background: var(--primary-color);
-  border-radius: 50%;
-  padding: 4px 10px;
-  color: var(--secondary-color);
-  margin: 10px;
-  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
-}
-.media-links div a:hover {
-  background-color: var(--secondary-color);
-  color: white;
-}
-.work-inquiry {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 30px 20px;
-  background: var(--primary-color);
-}
-.work-inquiry p {
-  font-size: 18px;
-  font-weight: 400;
-  text-align: left;
-}
-.work-inquiry-button {
-  position: relative;
-  top: -23px;
 }
 .about-section {
   margin: 100px 60px 60px;
@@ -187,6 +175,15 @@ footer p {
 }
 .about-section img {
   width: 400px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--default-font-family);
 }
 .about-paragraph {
   line-height: 2;

@@ -51,6 +51,15 @@ h2 {
   font-size: 50px;
   line-height: 1.5;
 }
+.about-section h1 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--default-font-family);
+}
 .hero p {
   font-size: 36px;
   font-weight: 700;
@@ -123,7 +132,7 @@ h2 {
   font-size: 14px;
   font-weight: 400;
 }
-.projects p {
+p {
   font-size: 14px;
   line-height: 1.8;
   opacity: 70%;
@@ -170,6 +179,19 @@ footer p {
   position: relative;
   top: -23px;
 }
+.about-section {
+  margin: 100px 60px 60px;
+}
+.about-section img {
+  width: 400px;
+}
+.about-paragraph {
+  line-height: 2;
+  text-align: justify;
+}
+.first-paragraph {
+  text-indent: 50px;
+}
 @media (max-width: 576px) {
   h6 {
     font-size: 20px;
@@ -203,6 +225,10 @@ footer p {
   }
   .work-inquiry p {
     font-size: 12px;
+  }
+  .about-section h1,
+  .about-section h2 {
+    text-align: center;
   }
 }
 @media (max-width: 768px) {

@@ -192,6 +192,28 @@ footer p {
 .first-paragraph {
   text-indent: 50px;
 }
+.media-links-contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+.media-links-contact div a {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  color: var(--secondary-color);
+  width: 60px;
+  box-shadow: var(--shadow);
+}
+.media-links-contact div a:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.paragraph {
+  text-align: justify;
+  font-size: 18px;
+}
 @media (max-width: 576px) {
   h6 {
     font-size: 20px;

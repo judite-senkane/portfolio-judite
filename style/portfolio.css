@@ -250,6 +250,9 @@ footer p {
   .work-inquiry p {
     font-size: 12px;
   }
+  .about-section {
+    margin: 60px 30px;
+  }
   .about-section h1,
   .about-section h2 {
     line-height: 1;

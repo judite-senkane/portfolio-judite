@@ -63,11 +63,14 @@ p {
   font-weight: 400;
   text-align: left;
 }
-footer p {
-  text-align: center;
+.email-link {
   font-size: 24px;
   font-weight: 500;
   color: black;
+  text-decoration: none;
+}
+.email-link:hover {
+  color: var(--secondary-color);
 }
 .homepage img {
   padding: 20px 30px;

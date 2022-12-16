@@ -44,7 +44,7 @@ p {
 .hero {
   text-align: center;
   background-color: var(--primary-color);
-  padding: 80px 30px;
+  padding: 160px 30px;
 }
 .hero p {
   font-size: 36px;
@@ -227,6 +227,9 @@ p {
 }
 .navbar-toggler {
   color: var(--text-color);
+}
+.page-top {
+  margin-top: 100px;
 }
 @media (max-width: 576px) {
   h6 {

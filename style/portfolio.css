@@ -215,6 +215,16 @@ footer p {
   text-align: justify;
   font-size: 18px;
 }
+.navbar-nav a {
+  color: var(--text-color);
+  margin: 0 20px;
+}
+.navbar-nav .nav-link.active {
+  color: var(--secondary-color);
+}
+.navbar-toggler {
+  color: var(--text-color);
+}
 @media (max-width: 576px) {
   h6 {
     font-size: 20px;

@@ -68,6 +68,7 @@ p {
   font-weight: 500;
   color: black;
   text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
 .email-link:hover {
   color: var(--secondary-color);
@@ -94,6 +95,7 @@ p {
   color: var(--secondary-color);
   margin: 10px;
   box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
+  transition: all 100ms ease-in-out;
 }
 .media-links div a:hover {
   background-color: var(--secondary-color);
@@ -132,6 +134,7 @@ p {
   border-radius: 4px;
   padding: 15px 25px;
   margin: 25px;
+  transition: all 100ms ease-in-out;
 }
 .btn-small-dark:hover {
   border: 2px solid var(--secondary-color);
@@ -146,6 +149,7 @@ p {
   line-height: 1.5;
   border-radius: 4px;
   padding: 15px 25px;
+  transition: all 100ms ease-in-out;
 }
 .btn-small-light:hover {
   background-color: var(--secondary-color);
@@ -161,6 +165,7 @@ p {
   padding: 19px 29px;
   width: 160px;
   margin: 25px;
+  transition: all 100ms ease-in-out;
 }
 .btn-secondary:hover {
   border-color: var(--secondary-color);
@@ -209,6 +214,7 @@ p {
   color: var(--secondary-color);
   width: 60px;
   box-shadow: var(--shadow);
+  transition: all 100ms ease-in-out;
 }
 .media-links-contact div a:hover {
   background-color: var(--secondary-color);
